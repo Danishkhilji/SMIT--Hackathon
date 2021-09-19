@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/level1.css">
+</head>
+<body>
+    <button class="btn btn-danger" onclick="logout()">Logout</button>
+<div id="level-1"> 
+    <div class="wrapper">
+        <h1>Level  1</h1>
+        <div id="msg"></div>
+        <p id="red">Pop 4 red ball</p>
+        <p id="blue">Pop 3 blue ball</p>
+        <p id="yellow">Pop 2 yellow ball</p>
+        <div id="score"></div>
+        <div class="yay-no-balloons" id="pass"><span class="blue">Wow!</span> All balloons popped!</div>
+        <div class="balloon-gallery" id="hello">
+         <div class="balloon" id="1"></div>
+         <div class="balloon" id="2" ></div>
+         <div class="balloon" id="3"></div>
+         <div class="balloon" id="2"></div>
+         <div class="balloon" id="4"></div>
+         <div class="balloon" id="2"></div>
+         <div class="balloon" id="1"></div>
+         <div class="balloon" id="2"></div>
+         <div class="balloon" id="3"></div>
+         <div class="balloon" id="1"></div>
+         <div class="balloon" id="1"></div>
+         <div class="balloon" id="2"></div>
+         <div class="balloon" id="4"></div>
+         <div class="balloon"id="2"></div>
+         <div class="balloon" id="4"></div>
+         <div class="balloon"id="2"></div>
+         <div class="balloon"id="1"></div>
+         <div class="balloon"id="2"></div>
+         <div class="balloon"id="1"></div>
+         <div class="balloon"id="1"></div>
+        </div>
+    </div>
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+<script src="../Js/firebase.js"></script>
+<script src="../Js/level1.js"></script>
+</body>
+</html>
