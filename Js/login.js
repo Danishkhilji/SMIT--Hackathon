@@ -11,7 +11,7 @@ const googleLogin=()=>{
         var user = result.user;
     setTimeout(() => {
         location.replace("../html/game.html")    
-    }, 2000);
+    }, 500);
       
     }).catch((error) => {
     });
