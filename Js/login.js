@@ -10,7 +10,7 @@ const googleLogin=()=>{
     .then((result) => {
         var user = result.user;
     setTimeout(() => {
-        location.replace("./html/game.html")    
+        location.replace("../html/game.html")    
     }, 2000);
       
     }).catch((error) => {
